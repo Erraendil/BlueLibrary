@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A57D8571D8EACEA00D05DD7 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A57D8561D8EACEA00D05DD7 /* Album.m */; };
+		1A57D85A1D8EAED900D05DD7 /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A57D8591D8EAED900D05DD7 /* AlbumView.m */; };
+		1A57D8601D8EB2EE00D05DD7 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A57D85F1D8EB2EE00D05DD7 /* LibraryAPI.m */; };
+		1A57D8631D8EB4F500D05DD7 /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A57D8621D8EB4F500D05DD7 /* PersistencyManager.m */; };
+		1A57D8661D8EBFEE00D05DD7 /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A57D8651D8EBFEE00D05DD7 /* Album+TableRepresentation.m */; };
+		1A57D8691D8ECA7C00D05DD7 /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A57D8681D8ECA7C00D05DD7 /* HorizontalScroller.m */; };
 		450EECC017A9B03A00957F62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450EECBF17A9B03A00957F62 /* UIKit.framework */; };
 		450EECC217A9B03A00957F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450EECC117A9B03A00957F62 /* Foundation.framework */; };
 		450EECC417A9B03A00957F62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450EECC317A9B03A00957F62 /* CoreGraphics.framework */; };
@@ -21,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A57D8551D8EACEA00D05DD7 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Album.h; path = BlueLibrary/Album.h; sourceTree = "<group>"; };
+		1A57D8561D8EACEA00D05DD7 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = BlueLibrary/Album.m; sourceTree = "<group>"; };
+		1A57D8581D8EAED900D05DD7 /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumView.h; path = BlueLibrary/AlbumView.h; sourceTree = "<group>"; };
+		1A57D8591D8EAED900D05DD7 /* AlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumView.m; path = BlueLibrary/AlbumView.m; sourceTree = "<group>"; };
+		1A57D85E1D8EB2EE00D05DD7 /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		1A57D85F1D8EB2EE00D05DD7 /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
+		1A57D8611D8EB4F500D05DD7 /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
+		1A57D8621D8EB4F500D05DD7 /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
+		1A57D8641D8EBFEE00D05DD7 /* Album+TableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Album+TableRepresentation.h"; path = "BlueLibrary/Album+TableRepresentation.h"; sourceTree = "<group>"; };
+		1A57D8651D8EBFEE00D05DD7 /* Album+TableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Album+TableRepresentation.m"; path = "BlueLibrary/Album+TableRepresentation.m"; sourceTree = "<group>"; };
+		1A57D8671D8ECA7C00D05DD7 /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalScroller.h; path = BlueLibrary/HorizontalScroller.h; sourceTree = "<group>"; };
+		1A57D8681D8ECA7C00D05DD7 /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HorizontalScroller.m; path = BlueLibrary/HorizontalScroller.m; sourceTree = "<group>"; };
 		450EECBC17A9B03A00957F62 /* BlueLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450EECBF17A9B03A00957F62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		450EECC117A9B03A00957F62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +72,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A57D85B1D8EB23200D05DD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A57D8551D8EACEA00D05DD7 /* Album.h */,
+				1A57D8561D8EACEA00D05DD7 /* Album.m */,
+				1A57D8641D8EBFEE00D05DD7 /* Album+TableRepresentation.h */,
+				1A57D8651D8EBFEE00D05DD7 /* Album+TableRepresentation.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1A57D85C1D8EB24A00D05DD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A57D8581D8EAED900D05DD7 /* AlbumView.h */,
+				1A57D8591D8EAED900D05DD7 /* AlbumView.m */,
+				1A57D8671D8ECA7C00D05DD7 /* HorizontalScroller.h */,
+				1A57D8681D8ECA7C00D05DD7 /* HorizontalScroller.m */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1A57D85D1D8EB25600D05DD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450EECD717A9B03A00957F62 /* ViewController.h */,
+				450EECD817A9B03A00957F62 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		450EECB317A9B03A00957F62 = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +135,10 @@
 		450EECC517A9B03A00957F62 /* BlueLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				1A57D85B1D8EB23200D05DD7 /* Model */,
+				1A57D85C1D8EB24A00D05DD7 /* View */,
+				1A57D85D1D8EB25600D05DD7 /* Controller */,
 				450EECE217A9B04400957F62 /* API */,
-				450EECD717A9B03A00957F62 /* ViewController.h */,
-				450EECD817A9B03A00957F62 /* ViewController.m */,
 				450EECCE17A9B03A00957F62 /* AppDelegate.h */,
 				450EECCF17A9B03A00957F62 /* AppDelegate.m */,
 				450EECC617A9B03A00957F62 /* Supporting Files */,
@@ -111,6 +163,10 @@
 		450EECE217A9B04400957F62 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				1A57D85E1D8EB2EE00D05DD7 /* LibraryAPI.h */,
+				1A57D85F1D8EB2EE00D05DD7 /* LibraryAPI.m */,
+				1A57D8611D8EB4F500D05DD7 /* PersistencyManager.h */,
+				1A57D8621D8EB4F500D05DD7 /* PersistencyManager.m */,
 				450EECE317A9B05E00957F62 /* HTTPClient.h */,
 				450EECE417A9B05E00957F62 /* HTTPClient.m */,
 			);
@@ -184,7 +240,13 @@
 			files = (
 				450EECCC17A9B03A00957F62 /* main.m in Sources */,
 				450EECD017A9B03A00957F62 /* AppDelegate.m in Sources */,
+				1A57D85A1D8EAED900D05DD7 /* AlbumView.m in Sources */,
+				1A57D8631D8EB4F500D05DD7 /* PersistencyManager.m in Sources */,
+				1A57D8601D8EB2EE00D05DD7 /* LibraryAPI.m in Sources */,
+				1A57D8691D8ECA7C00D05DD7 /* HorizontalScroller.m in Sources */,
 				450EECD917A9B03A00957F62 /* ViewController.m in Sources */,
+				1A57D8661D8EBFEE00D05DD7 /* Album+TableRepresentation.m in Sources */,
+				1A57D8571D8EACEA00D05DD7 /* Album.m in Sources */,
 				450EECE517A9B05E00957F62 /* HTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +362,7 @@
 				450EECE117A9B03A00957F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
