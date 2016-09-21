@@ -50,7 +50,7 @@
  @param     index - int index of view were clicked.
  @return    Nothing.
  */
-- (void)horizontalScroller:(HorizontalScroller *)scroller clickedViewAtIndex:(in)index;
+- (void)horizontalScroller:(HorizontalScroller *)scroller clickedViewAtIndex:(int)index;
 
 @optional
 
